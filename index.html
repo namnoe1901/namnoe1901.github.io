@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Garden - Home</title>
+    <style>
+        body {
+            font-family: "Helvetica", sans-serif;
+            background-color: #ffe6f2;
+            color: #4b2e83;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/fantasy-garden.jpg');
+            background-size: cover;
+            transition: margin-left 0.3s;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: rgba(204, 153, 255, 0.95);
+            padding-top: 30px;
+            transition: transform 0.3s ease;
+            box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+            border-right: 3px solid #4b2e83;
+            transform: translateX(-250px); /* ซ่อนแถบด้านข้าง */
+        }
+        .sidebar.active {
+            transform: translateX(0); /* แสดงแถบด้านข้าง */
+        }
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            display: block;
+            transition: background-color 0.3s;
+            text-align: center;
+            border-radius: 5px;
+            margin: 10px 15px;
+        }
+        .sidebar a:hover {
+            background-color: #7d3cae;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .main-content {
+            padding: 40px;
+            transition: margin-left 0.3s;
+        }
+        .hero {
+            padding: 80px 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 15px 0 0;
+        }
+        .info {
+            margin-top: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .info img {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #7d3cae;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .toggle-btn:hover {
+            background-color: #4b2e83;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="toggle-btn" onclick="toggleSidebar()">☰ เปิด/ปิดเมนู</button>
+
+    <div class="sidebar">
+        <a href="index.html">หน้าแรก</a>
+        <a href="about.html">รายละเอียด</a>
+        <a href="curriculum-vitae.html">ประวัติส่วนตัว</a>
+    </div>
+
+    <div class="main-content">
+        <div class="hero">
+          <h1>ยินดีต้อนรับสู่สถานที่ท่องเที่ยวในจังหวัดสมุทรปราการ</h1>
+            <p>&nbsp;</p>
+        </div>
+        <div class="info">
+<blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <blockquote>
+                <blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <blockquote>
+                          <blockquote>
+                            <blockquote>
+                              <blockquote>
+                                <blockquote>
+                                  <blockquote>
+                                    <blockquote>
+                                      <blockquote>
+                                        <h2><strong>เเนะนำสถานที่ท่องเที่ยว</strong></h2>
+                                      </blockquote>
+                                      <p>&nbsp;</p>
+                                      <blockquote>
+                                        <blockquote>
+                                          <blockquote>
+                                            <p>1.เมืองโบราณ</p>
+                                          </blockquote>
+                                        </blockquote>
+                                      </blockquote>
+                                    </blockquote>
+                                  </blockquote>
+                                </blockquote>
+                              </blockquote>
+                            </blockquote>
+                          </blockquote>
+                          <p><img src="../../Users/IT-SPTC/Pictures/Saved Pictures/เมืองโบราณ.jpg" width="893" height="568" alt="ee"></p>
+                          <p>&nbsp;</p>
+                          <blockquote>
+                            <blockquote>
+                              <blockquote>
+                                <blockquote>
+                                  <blockquote>
+                                    <blockquote>
+                                      <blockquote>
+                                        <blockquote>
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                          <blockquote>
+                                            <p>2.บางกระเจ้า</p>
+                                          </blockquote>
+                                        </blockquote>
+                                      </blockquote>
+                                    </blockquote>
+                                  </blockquote>
+                                </blockquote>
+                              </blockquote>
+                            </blockquote>
+                            <p><img src="../../Users/IT-SPTC/Pictures/Saved Pictures/บางกะเจ้า.jpg" width="817" height="448" alt="ff"></p>
+                          </blockquote>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;	</p>
+                          <blockquote>
+                            <blockquote>
+                              <blockquote>
+                                <blockquote>
+                                  <blockquote>
+                                    <blockquote>
+                                      <blockquote>
+                                        <blockquote>
+                                          <h3>3.พิพิธภัณฑ์ช้างเอราวัณ</h3>
+                                        </blockquote>
+                                      </blockquote>
+                                    </blockquote>
+                                  </blockquote>
+                                </blockquote>
+                              </blockquote>
+                            </blockquote>
+                          </blockquote>
+                          <p><img src="../../Users/IT-SPTC/Pictures/Saved Pictures/ช้างเอราวัณ.jpg" width="1034" height="618" alt="gg"></p>
+                          <p>&nbsp;</p>
+                          <blockquote>
+                            <blockquote>
+                              <blockquote>
+                                <blockquote>
+                                  <blockquote>
+                                    <blockquote>
+                                      <blockquote>
+                                        <blockquote>
+                                          <blockquote>
+                                            <blockquote>
+                                              <h3>4.เมกาบางนา </h3>
+                                            </blockquote>
+                                          </blockquote>
+                                        </blockquote>
+                                      </blockquote>
+                                    </blockquote>
+                                  </blockquote>
+                                </blockquote>
+                              </blockquote>
+                            </blockquote>
+                          </blockquote>
+                          <p><img src="../../Users/IT-SPTC/Pictures/Saved Pictures/เมกาบางนา.jpg" width="1007" height="508" alt="hh"></p>
+                          <blockquote>
+                            <p>&nbsp;</p>
+                            <blockquote>
+                              <blockquote>
+                                <blockquote>
+                                  <blockquote>
+                                    <blockquote>
+                                      <blockquote>
+                                        <blockquote>
+                                          <blockquote>
+                                            <p>5.วัดอโศการาม</p>
+                                          </blockquote>
+                                        </blockquote>
+                                      </blockquote>
+                                    </blockquote>
+                                  </blockquote>
+                                </blockquote>
+                              </blockquote>
+                            </blockquote>
+                            <p><img src="../../Users/IT-SPTC/Pictures/Saved Pictures/วัดโศการาม.jpg" width="916" height="588" alt="bb"></p>
+                          </blockquote>
+                          <p>&nbsp;</p>
+                        </blockquote>
+                        <p>&nbsp;</p>
+                        <blockquote>
+                          <p><br>
+                          </p>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+      </blockquote>
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
